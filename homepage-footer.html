@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footer — Traction Stream</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:#1e2d40;-webkit-font-smoothing:antialiased;}
+
+.footer{background:#1e2d40;border-top:1px solid rgba(255,255,255,0.08);padding:56px 24px 32px;}
+.footer-inner{max-width:1080px;margin:0 auto;}
+
+/* Top grid */
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:48px;}
+@media(max-width:700px){.footer-grid{grid-template-columns:1fr;gap:32px;}}
+
+/* Brand column */
+.footer-brand-name{font-family:'DM Serif Display',serif;font-size:22px;color:#ffffff;font-weight:400;margin-bottom:8px;}
+.footer-brand-name span{color:#b8913a;}
+.footer-tagline{font-size:13px;color:rgba(255,255,255,0.45);line-height:1.6;margin-bottom:20px;max-width:280px;}
+.footer-global{font-size:12px;color:rgba(255,255,255,0.3);line-height:1.6;max-width:280px;}
+
+/* Social icons */
+.footer-social{display:flex;gap:12px;margin-top:24px;}
+.social-link{width:36px;height:36px;border:1px solid rgba(255,255,255,0.15);border-radius:4px;display:flex;align-items:center;justify-content:center;text-decoration:none;color:rgba(255,255,255,0.5);font-size:14px;transition:all 0.2s;}
+.social-link:hover{border-color:var(--gold);color:#b8913a;}
+
+/* Link columns */
+.footer-col-title{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#b8913a;margin-bottom:16px;}
+.footer-links{list-style:none;padding:0;margin:0;}
+.footer-links li{margin-bottom:10px;}
+.footer-links a{font-size:14px;color:rgba(255,255,255,0.55);text-decoration:none;transition:color 0.15s;}
+.footer-links a:hover{color:#ffffff;}
+
+/* Bottom bar */
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+.footer-copy{font-size:12px;color:rgba(255,255,255,0.25);}
+.footer-legal{display:flex;gap:20px;}
+.footer-legal a{font-size:12px;color:rgba(255,255,255,0.25);text-decoration:none;transition:color 0.15s;}
+.footer-legal a:hover{color:rgba(255,255,255,0.6);}
+</style>
+</head>
+<body>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div>
+        <div class="footer-brand-name">Traction <span>Stream</span></div>
+        <p class="footer-tagline">The Business Side of Painting and Decorating. Built by a painter, for painters.</p>
+        <p class="footer-global">Works in any country — any currency, metric or imperial. UK, USA, Canada, Ireland, Australia, New Zealand.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/tractionstream" class="social-link" target="_blank" title="Facebook">f</a>
+          <a href="https://www.youtube.com/channel/UCId3IkPx-bUBlN4WDc1W8Ig" class="social-link" target="_blank" title="YouTube">▶</a>
+        </div>
+      </div>
+
+      <!-- Free Tools -->
+      <div>
+        <div class="footer-col-title">Free Tools</div>
+        <ul class="footer-links">
+          <li><a href="https://lc.tractionstream.com/hourly-rate-calculator">Hourly Rate Calculator</a></li>
+          <li><a href="https://lc.tractionstream.com/ceiling-estimator">Ceiling Estimator</a></li>
+          <li><a href="https://lc.tractionstream.com/wall-calculator">Wall Estimator</a></li>
+        </ul>
+        <div class="footer-col-title" style="margin-top:28px;">Professional Tools</div>
+        <ul class="footer-links">
+          <li><a href="https://app.tractionstream.com/hourly-rate-and-business-calculator">Find Your Real Hourly Rate</a></li>
+          <li><a href="https://app.tractionstream.com/paintquote-pro">PaintQuote Pro</a></li>
+        </ul>
+      </div>
+
+      <!-- Site -->
+      <div>
+        <div class="footer-col-title">Site</div>
+        <ul class="footer-links">
+          <li><a href="https://tractionstream.com">Home</a></li>
+          <li><a href="https://tractionstream.com/about-us/">About</a></li>
+          <li><a href="https://tractionstream.com/blog/">Blog</a></li>
+          <li><a href="https://tractionstream.com/contact/">Contact</a></li>
+          <li><a href="https://tractionstream.com/support/">Support</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Traction Stream. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="https://tractionstream.com/privacy-policy/">Privacy Policy</a>
+        <a href="https://tractionstream.com/terms/">Terms</a>
+        <a href="https://tractionstream.com/return-policy/">Returns</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
