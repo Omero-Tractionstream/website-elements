@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tools — Traction Stream</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:#1e2d40;padding:72px 24px 80px;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:1080px;margin:0 auto;}
+
+/* Header */
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#b8913a;text-align:center;margin-bottom:16px;}
+.heading{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,42px);color:#fff;font-weight:400;text-align:center;line-height:1.2;margin-bottom:16px;}
+.subhead{font-size:16px;color:rgba(255,255,255,0.6);text-align:center;max-width:600px;margin:0 auto 12px;line-height:1.75;}
+.global-note{font-size:13px;color:rgba(255,255,255,0.3);text-align:center;margin-bottom:56px;}
+
+/* Divider labels */
+.divider-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,0.08);}
+
+/* Free tools grid */
+.free-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:48px;}
+@media(max-width:700px){.free-grid{grid-template-columns:1fr;}}
+
+/* Paid tools grid */
+.paid-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+@media(max-width:600px){.paid-grid{grid-template-columns:1fr;}}
+
+/* Card base */
+.card{border-radius:6px;padding:28px 24px;display:flex;flex-direction:column;}
+.card-free{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-top:3px solid #b8913a;}
+.card-paid{background:rgba(184,145,58,0.08);border:1px solid rgba(184,145,58,0.3);border-top:3px solid #b8913a;}
+
+.card-badge{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#b8913a;margin-bottom:10px;}
+.card-title{font-family:'DM Serif Display',serif;font-size:21px;color:#fff;font-weight:400;margin-bottom:12px;line-height:1.3;}
+.card-body{font-size:14px;color:rgba(255,255,255,0.62);line-height:1.7;margin-bottom:24px;flex:1;}
+
+/* Buttons */
+.btn-free{display:block;border:1.5px solid #b8913a;color:#b8913a;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:11px 16px;border-radius:4px;text-decoration:none;text-align:center;transition:background 0.18s,color 0.18s;}
+.btn-free:hover{background:#b8913a;color:#1e2d40;}
+.btn-paid{display:block;background:#b8913a;color:#1e2d40;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:700;padding:13px 16px;border-radius:4px;text-decoration:none;text-align:center;transition:background 0.18s;}
+.btn-paid:hover{background:#d4a94e;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">What We've Built For You</p>
+  <h2 class="heading">The business side of painting and decorating.<br>Sorted.</h2>
+  <p class="subhead">Free tools to get you started. Paid tools when you're ready to go further. Built by someone who spent 50 years on the tools — not a software company that's never held a brush.</p>
+  <p class="global-note">Works in any country — any currency, metric or imperial. UK, USA, Canada, Ireland, Australia, New Zealand.</p>
+
+  <p class="divider-label">Free Tools — Enter your email and get instant access</p>
+
+  <div class="free-grid">
+    <div class="card card-free">
+      <p class="card-badge">Free</p>
+      <h3 class="card-title">Hourly Rate Calculator</h3>
+      <p class="card-body">Not sure what you should be charging? Enter a few figures and get a rough starting point in under five minutes. Better than a guess — and it's free.</p>
+      <a href="https://lc.tractionstream.com/hourly-rate-calculator" class="btn-free">Get Free Access →</a>
+    </div>
+    <div class="card card-free">
+      <p class="card-badge">Free</p>
+      <h3 class="card-title">Ceiling Estimator</h3>
+      <p class="card-body">Enter your area, paint spec, and rate — get your material cost, labour hours, and job total instantly. Built for how painters actually think on site.</p>
+      <a href="https://lc.tractionstream.com/ceiling-estimator" class="btn-free">Get Free Access →</a>
+    </div>
+    <div class="card card-free">
+      <p class="card-badge">Free</p>
+      <h3 class="card-title">Wall Estimator</h3>
+      <p class="card-body">Walls are where most jobs are won or lost on price. Materials, labour, time allowances, sundries, extras — and what to charge the client. All in one tool.</p>
+      <a href="https://lc.tractionstream.com/wall-calculator" class="btn-free">Get Free Access →</a>
+    </div>
+  </div>
+
+  <p class="divider-label">Professional Tools — One-time payment, lifetime access</p>
+
+  <div class="paid-grid">
+    <div class="card card-paid">
+      <p class="card-badge">$49 USD · One time</p>
+      <h3 class="card-title">Find Your Real Hourly Rate</h3>
+      <p class="card-body">The full business calculator. Built from your actual take-home target, your real running costs, your tax rate, your working weeks. One hour. Your actual number. Use it every time your costs change.</p>
+      <a href="https://app.tractionstream.com/hourly-rate-and-business-calculator" class="btn-paid">Find My Real Hourly Rate →</a>
+    </div>
+    <div class="card card-paid">
+      <p class="card-badge">One time · Lifetime access</p>
+      <h3 class="card-title">PaintQuote Pro</h3>
+      <p class="card-body">A professional quoting tool that produces a properly formatted quote document in minutes. Labour, materials, terms and conditions, stage payments. The kind of quote that gets taken seriously.</p>
+      <a href="https://app.tractionstream.com/paintquote-pro" class="btn-paid">See PaintQuote Pro →</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
